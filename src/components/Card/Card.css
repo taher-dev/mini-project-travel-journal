@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  padding-bottom: 20px;
+  max-width: 800px;
+}
+
+.card-left {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-right: 19px;
+  flex-shrink: 0;
+}
+
+.card-main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-right {
+  padding: 5px 0;
+}
+.card-right-line1 {
+  display: flex;
+  align-items: end;
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+}
+.card-right-line1 > img {
+  height: 15px;
+}
+.card-right-line1 > p {
+  text-transform: uppercase;
+  margin-right: 12px;
+}
+.card-right-line1 > a {
+  color: #2b283a;
+}
+.card-right-line1 > a:visited {
+  color: #918e9b;
+}
+
+h2.card-right-title {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+p.card-right-date {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+p.card-right-text {
+  line-height: 1.5;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
