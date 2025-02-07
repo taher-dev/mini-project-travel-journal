@@ -16,6 +16,7 @@ It is a simple react mini project which demonstrates **react props.**
 ## ✨ Key Takeaways
 
 - React props.
+- Fetch data from external files.
 - Mapping components.
 - Spread object as props.
 - Line clamps.
